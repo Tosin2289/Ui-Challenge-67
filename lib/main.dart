@@ -253,8 +253,7 @@ class _MyAppState extends State<MyApp> {
                           MaterialStateProperty.all(Colors.tealAccent.shade400),
                       foregroundColor: MaterialStateProperty.all(Colors.white),
                       minimumSize: MaterialStateProperty.all(
-                        Size(screenWidth, screenHeight),
-                      ),
+                          Size(screenWidth * 0.65, screenHeight * 0.07)),
                       shape: MaterialStateProperty.all(RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(16))),
                     ),
